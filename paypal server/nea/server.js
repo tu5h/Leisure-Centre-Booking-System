@@ -8,8 +8,10 @@ app.use(express.static("public"));
 app.use(cors())
 app.use(express.json());
 
-const clientID = "Ae-dmJ3R47gkBNDlbEJ4-6LP0ZhFkHuj9nzv4Z16GYzcs3YAygHLf5tv9VYUnH_m1XdOPgAzDLT4Lb62";
-const secret = "EFC7T6av9l5B1i6vM-KwUzgjWk6Zw2rHdQwz2o4c9DWOagdZtQ4XdS1eyQCl-gQ7mZqfphnvStv5yWUC";
+//replace with private client key
+const clientID = "KEY";
+//replace with private paypal key
+const secret = "KEY";
 
 const prices = {
     'badminton': '12.00',
